@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://siouan.github.io/sitemap.xml
+Sitemap: https://siouan.github.io/frontend-gradle-plugin/sitemap.xml
