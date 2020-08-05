@@ -22,25 +22,4 @@ search: exclude
         <changefreq>daily</changefreq>
     </url>
     {% endfor %}
-
-    <url>
-        <loc>https://siouan.github.io/frontend-gradle-plugin/</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>https://siouan.github.io/frontend-gradle-plugin/installation</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>https://siouan.github.io/frontend-gradle-plugin/configuration</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>https://siouan.github.io/frontend-gradle-plugin/node-npm-npx-yarn-tasks</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>https://siouan.github.io/frontend-gradle-plugin/faqs</loc>
-        <changefreq>weekly</changefreq>
-    </url>
 </urlset>
