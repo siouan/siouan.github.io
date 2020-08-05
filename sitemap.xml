@@ -1,0 +1,46 @@
+---
+layout: null
+search: exclude
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.pages %}
+    <url>
+        <loc>{{page.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    {% endfor %}
+
+    {% for post in site.posts %}
+    <url>
+        <loc>{{post.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    {% endfor %}
+
+    <url>
+        <loc>https://siouan.github.io/frontend-gradle-plugin/</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://siouan.github.io/frontend-gradle-plugin/installation</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://siouan.github.io/frontend-gradle-plugin/configuration</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://siouan.github.io/frontend-gradle-plugin/node-npm-npx-yarn-tasks</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://siouan.github.io/frontend-gradle-plugin/faqs</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+</urlset>
